@@ -1,7 +1,9 @@
+> Preprocessor to compile Webpack files on the fly.
+
 ## How to install?
 
 ```
-npm install karma-coffee-preprocessor --save-dev
+npm install karma-webpack-preprocessor --save-dev
 ```
 
 ## Configuration
