@@ -1,0 +1,19 @@
+{
+  "name": "karma-webpack-preprocessor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor"
+  ],
+  "author": "Igor Sterjakov",
+  "license": "ISC",
+  "dependencies": {
+    "memory-fs": "^0.4.1",
+    "webpack": "^2.2.1"
+  }
+}
