@@ -16,11 +16,11 @@ module.exports = function(config) {
     // ...
 
     files: [
-      '../app/**/*.karma.js',
+      './app/**/*.karma.js',
     ],
 
     preprocessors: {
-      ['../lib/**/*.karma.js']: ['webpack'],
+      ['./app/**/*.karma.js']: ['webpack'],
     },
 
     webpackPreprocessor: {
