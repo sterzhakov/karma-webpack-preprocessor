@@ -37,13 +37,13 @@ const createWebpackPreprocessor = (args, config, logger) => {
   return (content, file, done) => {
     log.debug('Processing "%s".', file.path)
     const webpackConfig = getWebpackConfig(config.configPath)
-    const result = compileWebpack(
+    compileWebpack(
       webpackConfig,
       file.path,
       (err, result) => done(null, result)
     )
   }
-  
+
 }
 
 createWebpackPreprocessor.$inject = [
